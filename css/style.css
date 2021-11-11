@@ -87,10 +87,17 @@ body{
     color: gray;
     font-size: 1.4em;
 }
+
 /* main console e accessori */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
+    }
+    
+}
+@media screen and (max-width:767) {
+    .ps5-accessories{
+        justify-content: space-between;
     }
     
 }
