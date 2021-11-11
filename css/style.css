@@ -1,3 +1,7 @@
+body{
+    font-family: Helvetica, arial, sans-serif;
+}
+/* font */
 .header-sony{
     width: 100%;
     background-color: black;
@@ -11,4 +15,11 @@
 .play-icon {
     color: #0070d1;
     font-size: 3rem;
+}
+.serach-icon{
+    
+    color: black;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+
 }
