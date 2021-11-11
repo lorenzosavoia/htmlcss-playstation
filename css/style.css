@@ -10,6 +10,10 @@ body{
 .rounded-4{
     border-radius: 20px;
 }
+.tm-size{
+    font-size: 0.6em;
+    vertical-align: text-top;
+}
 
 /* generali */
 
@@ -63,11 +67,11 @@ body{
 /* jumbo */
 
 /* main img box */
-.img-box-main .img-box{
+.img-box{
     width: 100%;
         
 }
-.img-box-main .img-box img{
+.img-box img{
     width: 100%;
 }
 
@@ -114,6 +118,20 @@ body{
 }
 
 /* it take two */
+
+/* nuove uscite */
+.nuove-uscite{
+    background-color: #1f1f1f;
+    padding-bottom: 3em;
+}
+.img-box-new-exit{
+    width: 100%;
+        
+}
+.img-box-new-exit img{
+    width: 100%;
+}
+/* nuove uscite */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
