@@ -1,0 +1,14 @@
+.header-sony{
+    width: 100%;
+    background-color: black;
+}
+
+.header-sony .container-fluid .row img{
+    width: 100px;
+    padding: .4rem;
+}
+
+.play-icon {
+    color: #0070d1;
+    font-size: 3rem;
+}
