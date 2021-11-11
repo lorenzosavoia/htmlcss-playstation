@@ -7,6 +7,9 @@ body{
 .white{
     color: white;
 }
+.rounded-4{
+    border-radius: 20px;
+}
 
 /* generali */
 
@@ -58,6 +61,17 @@ body{
 }
 
 /* jumbo */
+
+/* main img box */
+.img-box-main .img-box{
+    width: 100%;
+        
+}
+.img-box-main .img-box img{
+    width: 100%;
+}
+
+/* main img box */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
