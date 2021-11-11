@@ -88,16 +88,45 @@ body{
     font-size: 1.4em;
 }
 
+.text-accessories{
+    display: none;
+    font-size: 1.1em;
+}
+
 /* main console e accessori */
+
+/* it take two */
+.it-take-two-banner{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.it-take-two-title{
+    font-size: 2.5em;
+}
+.logo-it-take-two{
+    max-width: 65%;
+    
+}
+
+/* it take two */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
     }
     
+    
 }
-@media screen and (max-width:767) {
+@media screen and (min-width:767px) {
     .ps5-accessories{
         justify-content: space-between;
     }
-    
+    .text-accessories{
+        display: block;
+        
+    }
 }
