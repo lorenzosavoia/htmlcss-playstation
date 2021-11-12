@@ -132,6 +132,23 @@ body{
     width: 100%;
 }
 /* nuove uscite */
+
+/* playstation plus */
+.playstation-plus{
+    width: 100%;
+    background-color: #bebcbb;
+}
+.text-ps-plus{
+    font-size: 1.2em;
+    
+}
+.img-ps-plus-none{
+    display: none;
+}
+.blue{
+    color: #0070d1;
+}
+/* playstation plus */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
@@ -144,7 +161,9 @@ body{
         justify-content: space-between;
     }
     .text-accessories{
+        display: block;     
+    }
+    .img-ps-plus-none{
         display: block;
-        
     }
 }
