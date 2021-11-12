@@ -161,6 +161,28 @@ body{
 
 }
 /* playstation now */
+
+/* footer */
+footer{
+    background-color: #00439b;
+    width: 100%;
+}
+.footer-world{
+    width: 1em;
+}
+.logo-ps-footer{
+    width: 10em;
+}
+.lenguage-cont{
+    line-height: 2em;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+/* footer */
 @media  screen and (max-width:991px) {
     .display-none{
         display: none;
