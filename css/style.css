@@ -182,6 +182,13 @@ footer ul {
 footer ul li a{
     text-decoration: none;
 }
+
+.sie-logo{
+    width: 150px;
+}
+.gutter-0{
+    --bs-gutter-x: 0;
+}
 /* footer */
 @media  screen and (max-width:991px) {
     .display-none{
